@@ -1,13 +1,96 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": "2",
+      "plumberId": "2",
+      "date_created": "1679687325520",
+      "id": 1
+    },
+    {
+      "requestId": "2",
+      "plumberId": "2",
+      "date_created": "1679687331812",
+      "id": 2
+    },
+    {
+      "requestId": "2",
+      "plumberId": "1",
+      "date_created": "1679687347890",
+      "id": 3
+    },
+    {
+      "requestId": "3",
+      "plumberId": "2",
+      "date_created": "1679687365878",
+      "id": 4
+    }
+  ],
+  "requests": [
+    {
+      "description": "leaky faucet",
+      "address": "3333 faucet lane",
+      "budget": "230.00",
+      "neededBy": "2023-03-31",
+      "id": 2
+    },
+    {
+      "description": "Broken toilet",
+      "address": "4444 flush rd",
+      "budget": "420.00",
+      "neededBy": "2023-04-12",
+      "id": 3
+    },
+    {
+      "description": "bathtub broke",
+      "address": "7575 broke bath rd",
+      "budget": "0.00",
+      "neededBy": "2023-03-25",
+      "id": 4
+    },
+    {
+      "description": "sink broke",
+      "address": "3434 sink broke dang rd",
+      "budget": "45.00",
+      "neededBy": "2023-04-19",
+      "id": 5
+    },
+    {
+      "description": "Gotta broke sink. Needs repair'n",
+      "address": "8484 friday dr.",
+      "budget": "700.00",
+      "neededBy": "2023-04-01",
+      "id": 6
+    },
+    {
+      "description": "sumn broke",
+      "address": "water everywhere lane",
+      "budget": "3.00",
+      "neededBy": "2023-05-16",
+      "id": 7
+    },
+    {
+      "description": "hope this works",
+      "address": "plz work rd",
+      "budget": "999.00",
+      "neededBy": "2023-04-07",
+      "id": 8
+    },
+    {
+      "description": "job",
+      "address": "address ",
+      "budget": "444",
+      "neededBy": "2023-04-06",
+      "id": 9
+    }
+  ]
 }

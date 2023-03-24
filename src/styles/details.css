@@ -1,0 +1,27 @@
+
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: black;
+    color: rgb(217, 11, 245);
+    font-size: 1rem;
+}
+
+.label {
+    font-size: x-large;
+}
+
+.request__delete {
+    background-color: black;
+    color: rgb(217, 11, 245);
+}
+
+.serviceRequests {
+    border: thin ridge black;
+}
